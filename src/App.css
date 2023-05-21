@@ -1,0 +1,28 @@
+body{
+  background-color: #646769;
+}
+
+.App{
+  text-align: center;
+}
+
+h1{
+  color: white;
+  font-size: 40px;
+}
+
+@media (500px < width < 800px) {
+ 
+  h1{
+    font-size: 30px;
+  }
+
+}
+
+@media (200px < width <= 500px) {
+
+  h1{
+    font-size: 20px;
+  }
+
+}
